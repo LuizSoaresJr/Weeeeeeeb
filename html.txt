@@ -1,0 +1,64 @@
+Anatomy of an HTML element
+
+<p>My cat is very grumpy</p>: The element
+
+	<p>: Opening tag
+	My cat is very grumpy: Content
+	</p>: Closing tag
+
+<p class="editor-note">My cat is very grumpy</p>
+
+	class="editor-note": Attribute
+	class: Attribute name
+	editor-note: Attribute value
+
+Nesting elements
+	Elements inside elements
+
+<p>My cat is <strong>very</strong> grumpy.</p>
+	Important to close the tags properly and in order
+
+Empty elements
+	
+<img src="images/firefox-icon.png" alt="My test image" />
+	src="images/firefox-icon.png": 1st Attribute
+	alt="My test image": 2nd Attribute
+	
+	No closing </img> because this doesn't wrap content, just show image
+
+Anatomy of an HTML document
+	Check the  index.html file in ./testSite for comments
+
+Images
+
+<img src="images/firefox-icon.png" alt="My test image" />
+	Alt att allows to show a descriptive text when the user can't see the image
+	
+Headings
+
+<h1> ... </h1>
+	Headers can be used from h1 to h6, they descrease in size
+
+Paragraphs
+
+<p> ... </p>
+	Mark regular text content
+
+Lists
+
+<ul>
+	<li>1st item</li>
+	<li>2nd item</li>
+</ul>
+	It's a unordered list
+	<ol>: For ordered list
+
+Links
+
+<a href="https://www.mozilla.otg/en-US/about/manifesto/">Moziila Manifesto</a>
+	<a>: Archor element
+	href="...": Attribute that target the link
+	Mozilla Manifesto: Content with the link embed
+
+For futher studies:
+	https://developer.mozilla.org/en-US/docs/Learn/HTML
